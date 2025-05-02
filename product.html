@@ -27,6 +27,17 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    .product-details-slider .swiper-slide img {
+      object-fit: contain;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-left: 0;
+      align-self: flex-start;
+    }
+  </style>
+
   <!-- =======================================================
   * Template Name: Moderna
   * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
@@ -36,7 +47,7 @@
   ======================================================== -->
 </head>
 
-<body class="portfolio-details-page">
+<body class="product-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -53,6 +64,7 @@
           <li><a href="services.html">Services</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="product.html">Product</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -65,26 +77,26 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
-        <h1>Portfolio Details</h1>
+        <h1>Product Details</h1>
         <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
+            <li class="current">Product Details</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+    <!-- Product Details Section -->
+    <section id="product-details" class="product-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
           <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
+            <div class="product-details-slider swiper init-swiper">
 
               <script type="application/json" class="swiper-config">
                 {
@@ -102,18 +114,10 @@
                 }
               </script>
 
-              <div class="swiper-wrapper align-items-center">
+              <div class="swiper-wrapper align-items-left">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
+                  <img src="assets/img/about.jpeg" alt="">
                 </div>
 
                 <div class="swiper-slide">
@@ -126,19 +130,19 @@
           </div>
 
           <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
+            <div class="product-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Product information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: JOURNAL</li>
+                <li><strong>Client</strong>: Dolphin Dreams Networks</li>
+                <li><strong>Product release date</strong>: 01 March, 2026</li>
+                <li><strong>Product URL</strong>: <a href="#">www.dolphindreamsnetworks.com</a></li>
               </ul>
             </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
+            <div class="product-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Product description</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Dolphin Dreams Journal is a platform that empowers individuals to explore their emotions, understand their thoughts, and develop healthier coping mechanisms. It offers a safe space for self-reflection, emotional expression, and personal growth.
               </p>
             </div>
           </div>
@@ -191,20 +195,18 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Explore</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Training</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Contact</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about.html">About</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services.html">Services</a></li>
           </ul>
         </div>
   
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Services</h4>
+          <h4></h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Trauma-Informed Coaching</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Conflict Resolution</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Leadership Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Mental Wellness</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="blog.html">Blog</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="contact.html">Contact</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="product.html">Product</a></li>
           </ul>
         </div>
   
@@ -225,12 +227,12 @@
   
     <div class="container copyright text-center mt-4">
       <p>
-        © <span>Copyright</span>
+        &copy; <span>Copyright</span>
         <strong class="px-1 sitename">Healing Hearts</strong>
         <span>All Rights Reserved</span>
       </p>
       <div class="credits">
-        Designed by <a href="#">Your Name or Company</a>
+        <p>Designed by <a href="https://www.linkedin.com/in/bryankimani/" target="_blank">🅱🆁🆈🅰🅽</a></p>
       </div>
     </div>
   </footer>
